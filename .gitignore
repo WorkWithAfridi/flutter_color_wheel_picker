@@ -1,0 +1,12 @@
+.dart_tool/
+build/
+.pub/
+pubspec.lock
+example/pubspec.lock
+
+# Local editor settings and generated tooling
+.vscode/
+.idea/
+*.iml
+coverage/
+.flutter-plugins-dependencies
