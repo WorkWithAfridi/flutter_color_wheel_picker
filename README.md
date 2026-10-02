@@ -1,4 +1,4 @@
-# Flutter Color Picker — HSV Color Wheel, HEX Input & Opacity Slider
+# Flutter Color Wheel Picker — HSV Color Wheel, HEX Input & Opacity Slider
 
 `flutter_color_wheel_picker` is a Flutter color picker package with an HSV color wheel,
 saturation and brightness selection, an alpha/opacity slider, RGB and ARGB HEX
@@ -73,7 +73,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_color_wheel_picker:
-    path: ../flutter_color_picker
+    path: ../flutter_color_wheel_picker
 
 flutter:
   uses-material-design: true
@@ -91,8 +91,8 @@ flutter pub get
 import 'package:flutter_color_wheel_picker/flutter_color_wheel_picker.dart';
 ```
 
-This README documents the local package. It does not assume that the package
-has been published to pub.dev.
+The local setup works before publication. The hosted dependency uses the
+package name `flutter_color_wheel_picker`.
 
 ## Quick start: get a color with a callback
 

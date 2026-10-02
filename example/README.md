@@ -1,6 +1,7 @@
-# Color picker example
+# Flutter Color Wheel Picker Example
 
-This Flutter application demonstrates the package widget and color stream.
+This Flutter application demonstrates `flutter_color_wheel_picker` widgets
+and the shared color stream.
 The application owns its dialog, preview and confirmation buttons in
 `lib/color_picker_dialog.dart`. No third-party packages are required.
 
