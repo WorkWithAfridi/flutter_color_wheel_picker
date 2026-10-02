@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_color_picker/flutter_color_picker.dart';
+import 'package:flutter_color_wheel_picker/flutter_color_wheel_picker.dart';
 import 'color_picker_dialog.dart';
 
 const ink = Color(0xFF252638);
@@ -76,7 +76,7 @@ class _PickerExampleState extends State<PickerExample> {
                         color: Colors.white, size: 21)),
                 const SizedBox(width: 12),
                 const Expanded(
-                    child: Text('flutter color picker',
+                    child: Text('flutter color wheel picker',
                         style: TextStyle(
                             fontSize: 17,
                             fontWeight: FontWeight.w700,

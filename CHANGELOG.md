@@ -1,5 +1,7 @@
 ## 0.2.0
 
+- First pub.dev release under `flutter_color_wheel_picker`, licensed under MIT.
+
 - Composable opacity slider, validated HEX field and swatch palette.
 - Shared controller synchronization across controls.
 - Keyboard adjustment, visible focus and adjustable HSV semantics.

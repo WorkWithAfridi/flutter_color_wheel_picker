@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_color_picker/flutter_color_picker.dart';
+import 'package:flutter_color_wheel_picker/flutter_color_wheel_picker.dart';
 
 /// Builds a custom preview beside the picker, such as an app-owned QR widget.
 typedef ColorPickerPreviewBuilder = Widget Function(

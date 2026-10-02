@@ -1,0 +1,26 @@
+# Local build and IDE state
+.dart_tool/
+build/
+.vscode/
+.idea/
+**/*.iml
+coverage/
+pubspec.lock
+example/.dart_tool/
+example/build/
+example/.idea/
+example/pubspec.lock
+example/android/.gradle/
+example/android/local.properties
+example/android/gradlew
+example/android/gradlew.bat
+example/android/gradle/wrapper/gradle-wrapper.jar
+# Unused duplicate screenshot
+image.png
+# Local Android credentials and generated files
+example/android/key.properties
+**/*.keystore
+**/*.jks
+example/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+.flutter-plugins-dependencies
+example/.flutter-plugins-dependencies

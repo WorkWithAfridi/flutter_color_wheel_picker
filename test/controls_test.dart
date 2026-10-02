@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/semantics.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_color_picker/flutter_color_picker.dart';
+import 'package:flutter_color_wheel_picker/flutter_color_wheel_picker.dart';
 
 void main() {
   testWidgets('HEX validates, parses RGB/ARGB and follows external selection',

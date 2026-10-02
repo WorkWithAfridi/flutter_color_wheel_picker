@@ -1,6 +1,14 @@
-name: flutter_color_picker
+name: flutter_color_wheel_picker
 description: Flutter HSV color picker with a hue wheel, opacity slider, HEX RGB/ARGB input, preset swatches, callbacks and a color stream. Flutter SDK only.
 version: 0.2.0
+repository: https://github.com/WorkWithAfridi/flutter_color_wheel_picker
+issue_tracker: https://github.com/WorkWithAfridi/flutter_color_wheel_picker/issues
+topics:
+  - color-picker
+  - hsv
+  - hex
+  - opacity
+  - widgets
 environment:
   sdk: '>=3.4.0 <4.0.0'
   flutter: '>=3.27.0'

@@ -1,6 +1,6 @@
 # Flutter Color Picker — HSV Color Wheel, HEX Input & Opacity Slider
 
-`flutter_color_picker` is a Flutter color picker package with an HSV color wheel,
+`flutter_color_wheel_picker` is a Flutter color picker package with an HSV color wheel,
 saturation and brightness selection, an alpha/opacity slider, RGB and ARGB HEX
 input, and preset color swatches. Embed individual widgets and get selected
 colors through a callback, a controller, or a Dart broadcast stream.
@@ -48,6 +48,16 @@ previews, color contrast checks, QR rendering, and persistence belong to your ap
 
 ## Installation
 
+### pub.dev dependency
+
+After the first release is published, add:
+
+```yaml
+dependencies:
+  flutter_color_wheel_picker: ^0.2.0
+```
+
+
 ### Requirements
 
 - Dart SDK `>=3.4.0 <4.0.0`.
@@ -62,7 +72,7 @@ Point your application's `pubspec.yaml` at the package directory:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_color_picker:
+  flutter_color_wheel_picker:
     path: ../flutter_color_picker
 
 flutter:
@@ -78,7 +88,7 @@ flutter pub get
 ```
 
 ```dart
-import 'package:flutter_color_picker/flutter_color_picker.dart';
+import 'package:flutter_color_wheel_picker/flutter_color_wheel_picker.dart';
 ```
 
 This README documents the local package. It does not assume that the package
@@ -106,7 +116,7 @@ The wheel preserves the initial color's alpha; add the opacity widget to edit it
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:flutter_color_picker/flutter_color_picker.dart';
+import 'package:flutter_color_wheel_picker/flutter_color_wheel_picker.dart';
 
 class ColorSettings extends StatefulWidget {
   const ColorSettings({super.key});
@@ -416,7 +426,7 @@ color, while notifier listeners receive changed HSV state.
 
 ```text
 lib/
-  flutter_color_picker.dart       Public exports
+  flutter_color_wheel_picker.dart Public exports
   src/
     controller.dart              HSV state, notifier and color stream
     picker.dart                  Public wheel, keyboard and semantics
@@ -514,6 +524,10 @@ No. Screen sampling and contrast validation are outside the current API.
 
 ### What should I check before publishing?
 
-Choose a license and add a `LICENSE` file, provide your repository/issue-tracker
-URLs in `pubspec.yaml`, and verify the package name and release configuration.
-No license or public repository URL is assumed by this README.
+Run `flutter pub publish --dry-run`, verify the release contents, and confirm
+the pub.dev account owns the package name. Repository and issue-tracker URLs
+are supplied in `pubspec.yaml`.
+
+## License
+
+Released under the [MIT License](LICENSE). Copyright (c) 2026 Khondakar Afridi.
